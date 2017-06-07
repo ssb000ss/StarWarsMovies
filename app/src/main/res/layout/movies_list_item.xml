@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dada">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/tv_movies_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Episode 1"
+        android:textSize="22sp"
+        android:layout_marginBottom="48dp"/>
+    <TextView
+        android:id="@+id/tv_movies_year"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#5d4"
+        android:text="Hello"
+        android:textSize="22sp" />
+</LinearLayout>
